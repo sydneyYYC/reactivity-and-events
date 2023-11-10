@@ -1,5 +1,7 @@
 <script>
   import Card from "../lib/Card.svelte";
+  import {recipeOne} from "../lib/data.js";
+  import Layout from "./+layout.svelte";
 </script>
 
 <main class="flex flex-col max-h-screen items-center m-4">
@@ -9,7 +11,7 @@
     <p>Hewwo</p>
 
   </section> -->
-  <Card></Card>
+  <Card {...recipeOne}/>
 
 </main>
 
