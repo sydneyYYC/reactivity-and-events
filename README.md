@@ -9,4 +9,4 @@
 
 - fixed. used this syntax with i as iterator to cycle through ingredients list  https://svelte.dev/repl/a3f0f86ca2014efeb3db9ea3fbd5c21b?version=3.38.3 . thanks svelte docs :) 
 
-- 
+- input fields https://svelte.dev/examples/text-inputs

@@ -29,3 +29,13 @@ drawing app with tiles - tiling app
 notes app
 
 recipe book -- :) lets try it
+
+# steps for input
+
+1. make input fields to take values -- export to component
+
+2. make cards that will hold values
+
+3. push input values into held values
+
+4. render card on page
