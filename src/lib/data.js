@@ -5,7 +5,7 @@ export let recipeOne = {
   ingredients: [ 'butternut squash(cubed)', 'chicken broth', 'onion', 'carrot', 'celery', 'panko breadcrumbs']
 };
 
-
+// what i wouldnt give for a pie rn
 export let recipeTwo = {
   cardDescription: 'Apple Pie with flakey crust, fresh apples and cinnamon',
   cardTitle:'Apple Pie',
@@ -17,3 +17,4 @@ export let recipeThree = {
   cardTitle: 'Chicken Pot Pie',
   ingredients: ['chicken', 'onion', 'celery', 'carrots', '2 pie crusts', 'flour', 'chicken broth']
 }
+

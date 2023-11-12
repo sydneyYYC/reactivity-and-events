@@ -39,3 +39,14 @@ recipe book -- :) lets try it
 3. push input values into held values
 
 4. render card on page
+
+### building 
+
+- now i have input fields and a place to put those inputs 
+- how do i use "bind:value" to take values in svelte?
+- i can use https://svelte.dev/repl/116ab042341d48bda2232eae2b6f41a6?version=3.59.2 this resource : 
+```
+bind:value = {input}
+
+<p> {input}
+```
