@@ -8,22 +8,24 @@
   export let recipeName = '';
   export let recipeDescription = '';
   export let inputItem = '';
-    let cardContent; 
-    let cardDesc;
-    let cardIng;
-  function handleSubmit() {
-    // Concatenate input values to create card content
-    cardContent = `${recipeName}`;
-    cardDesc = `${recipeDescription}`;
-    cardIng = `${inputItem}`
+  let cardContent; 
+  let cardDesc;
+  let cardIng;
+  let insert;
 
-    // Clear input fields
-    recipeName = "";
-    recipeDescription = "";
-    inputItem = "";
-  };
- 
-  
+    
+    function handleSubmit() {
+      // Concatenate input values to create card content
+      cardContent = `${recipeName}`;
+      cardDesc = `${recipeDescription}`;
+      cardIng = `${inputItem}`
+    
+      // Clear input fields
+      recipeName = "";
+      recipeDescription = "";
+      inputItem = "";
+    };
+    
 </script>
 
 <main class="flex flex-col max-h-screen items-center m-4">
@@ -38,6 +40,7 @@
 
   <!-- <InputCard /> -->
 </div>
+
 
 <!-- new card input  -->
 <div class="max-w-screen my-4">
