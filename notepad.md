@@ -50,3 +50,18 @@ bind:value = {input}
 
 <p> {input}
 ```
+
+- this works BUT i cant add items as array, items are being added as individual strings - which is not good 
+- can i add items and divide ingredients by ' ' ? 
+
+- ok i need to add a button to submit my values into a separate card. 
+- ok NOW using this https://svelte.dev/repl/8eb540552faa4651a398b182fa5cdd48?version=4.2.3 i have added a click handler to my button to run a function. 
+
+- now i need to write a function that will insert my input values into a new card and push it to the first array. 
+
+- ok so that didnt work. BUG it broke it . if i change my rendering of cards into an each loop from an array and push my new values to that array with .push can i render a new array ? 
+
+- pushing to a new array has proven not successful 
+
+- https://svelte.dev/repl/118b7d4540c64f8491d10a24e68948d7?version=3.12.1 DOM elements in Svelte
+- by using the child/container and append child syntax i can push elements to the page but i am getting "[object Object]", slightly closer but i want to target the added input values. hmmmmmmmmmmmmmmm
