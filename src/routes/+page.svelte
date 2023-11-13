@@ -2,6 +2,7 @@
   import Card from "../lib/Card.svelte";
   import Layout from "./+layout.svelte";
   import {recipeOne, recipeTwo, recipeThree} from '../lib/data.js';
+  import Feature from "../lib/Feature.svelte";
   // import InputCard from "../lib/InputCard.svelte";
 
   export let recipeName = '';
@@ -53,11 +54,12 @@
 <!-- recipe ingredient list -->
 <label for="text-input">Ingredients</label>: 
 <input bind:value={inputItem} placeholder="enter ingredients" class="border-solid border-amber-600 border-2 m-4"/>
-
+<Feature>
 <button class="bg-amber-800 text-white font-semibold rounded-lg p-2"id="submit">Submit</button>
+</Feature>
+
 </form>
 </div>
-
 <!-- if there is no name input the input field card will not show -->
 {#if recipeName === ''}
 <!-- TODO: maybe put a catch error here for no input? -->
