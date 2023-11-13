@@ -1,7 +1,7 @@
 # CPNT 262 Assignment 5
 ## Reactivity and Events
 ## Sydney Bruce
-## [livepage]
+## [livepage](event-and-reactivity.netlify.app)
 
 #### Bugs and Research 
 
